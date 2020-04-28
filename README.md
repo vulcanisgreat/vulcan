@@ -1,5 +1,9 @@
 ## Vulcan Suite
-This repository contains all the app used for the experiment of the state-aware testing tool. The repository includes the following:
+This repository contains all the code associated with Vulcan, our state-aware fuzzing tool for WearOS. The technical details are in the following paper:
+
+* Edgardo Barsallo Yi, Heng Zhang, Amiya Maji, Kefan Xu, and Saurabh Bagchi, "Vulcan: Lessons in Reliability of Wearables through State-AwareFuzzing," Mobisys 2020.
+
+The repository includes the following:
  * **[attacker](attacker)**. Attacker based on *Intent* injection campaigns. The project is used to determine the minimum working set needed to trigger system reboots on Wear OS. The following experiments can be :
    * Rate. The rate to collect data from the sensors installed on the *smartwatch*.
    * Inter-device communication. Communication between both paired devices, *mobile* and *smartwatch*.
